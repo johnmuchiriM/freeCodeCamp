@@ -1,0 +1,53 @@
+<H1 id =title>Kenya Airlift Program</H1>
+<p id = description>You want to study abroad. Register with the program today</p>
+
+<form id = "survey-form">
+  <label id="name-label">Name</label>
+  <br>
+  <input type= "text" name = "name" id = "name" placeholder="Enter your name here" required/>
+  <br>
+   <label id="email-label">Enter Mail</label>
+  <br>
+   <input type= "email" name = "email" id = "email" placeholder="Enter your email here" required/>
+  <br>
+   <label id="number-label">Enter Age</label>
+  <br>
+   <input type= "number" name = "number" id = "number" placeholder="Enter your number here" min="18" max="30" required/>
+  <br>
+   <label id="dropdown-label">Which amount do you want to deposit?</label>
+  <br>
+  <select name= "dropdown">
+    <option value = "3000" selected>Ksh 3000 </option>
+     <option value = "5000" selected>Ksh 5000 </option>
+     <option value = "10000" selected>Ksh 10000 </option>
+     <option value = "20000" selected>Ksh 20000 </option>
+  </select>
+  <br>
+  
+   <br>
+   <label id="radio-label">Would you recommend the program to anyone?</label>
+  <br>
+   <input type= "radio" name = "recommend" value = "yes" >Yes
+  <input type= "radio" name = "recommend" value = "no" >No
+  <input type= "radio" name = "recommend" value = "unsure" >Not Sure
+  <br>
+  
+    <br>
+   <label id="radio-label">Which University would you like to be enrolled?</label>
+  <br>
+   <input type= "checkbox" name = "university" value = "florida" >Florida
+  <input type= "checkbox" name = "university" value = "mit" >MIT
+  <input type= "checkbox" name = "university" value = "havard" >Harvard
+  <br>
+  
+   <br>
+   <label id="number-label">Leave a comment</label>
+  <br>
+   <textarea type= "text" name = "comment" id = "comment" placeholder="Leave a commment" ></textarea>
+  <br>
+  
+  
+    <p>
+      <button type ="submit" name ="submit" id ="submit">Submit</button>
+</form>
+
