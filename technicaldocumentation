@@ -1,0 +1,135 @@
+.leftnavbar{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  backgorund-color:#111;
+  
+}
+
+@media screen and (max-height: 100px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.main-section{
+  width:80%;
+  float : right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<main id = "main-doc">
+  <nav id="navbar" class = "leftnavbar">
+    <header>FLUTTER</header>
+     <br>
+    
+    <a href="#Fast_Development">Fast Development</a> 
+     |
+  <a href="#Expressive_and_Flexible_UI">Expressive and Flexible UI</a> 
+     |
+  <a href="#Native_Performance">Native Performance</a> 
+    |
+  <a href="#Learn_from_developers">Learn from developers</a>
+    |
+     <a href="#Install_Flutter_today">Install Flutter today</a>
+  </nav>
+  
+  
+  <section id = "Fast_Development"class = "main-section">
+    <header>Fast Development</header>
+    <p>Paint your app to life in milliseconds with Stateful Hot Reload. Use a rich set of fully-customizable widgets to build native interfaces in minutes. </p>
+    <p>Paint your app to life in milliseconds with Stateful Hot Reload. Use a rich set of fully-customizable widgets to build native interfaces in minutes. </p>
+    <code>void main() => runApp(MyApp());</code>
+    <ul>
+      <li>Paint your app to life in milliseconds with Stateful Hot Reload. </li>
+      <li>Use a rich set of fully-customizable widgets to build native interfaces in minutes. </li>
+    </ul>
+  </section>
+  
+   <section id = "Expressive_and_Flexible_UI"class = "main-section">
+    <header>Expressive and Flexible UI</header>
+    <p>Quickly ship features with a focus on native end-user experiences. Layered architecture allows for full customization, which results in incredibly fast rendering and expressive and flexible designs. </p>
+    <p>Quickly ship features with a focus on native end-user experiences. Layered architecture allows for full customization, which results in incredibly fast rendering and expressive and flexible designs. </p>
+    <code>return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome to Flutter'),
+        ),
+        body: const Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );</code>
+    <ul>
+      <li>Quickly ship features with a focus on native end-user experiences. Layered architecture allows for full customization, </li>
+      <li>which results in incredibly fast rendering and expressive and flexible designs. </li>
+    </ul>
+  </section>
+  
+   <section id = "Native_Performance"class = "main-section">
+    <header>Native Performance</header>
+    <p>Flutter’s widgets incorporate all critical platform differences such as scrolling, navigation, icons and fonts, and your Flutter code is compiled to native ARM machine code using Dart's native compilers. </p>
+    <p>Flutter’s widgets incorporate all critical platform differences such as scrolling, navigation, icons and fonts, and your Flutter code is compiled to native ARM machine code using Dart's native compilers. </p>
+    <code>flutter:
+       sdk: flutter
+	    cupertino_icons: ^1.0.2
+	+   english_words: ^4.0.0  </code>
+    <ul>
+      <li>The Scaffold widget, from the Material library, provides a default app bar, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.</li>
+      <li>A widget’s main job is to provide a build() method that describes how to display the widget in terms of other, lower level widgets.</li>
+    </ul>
+  </section>
+  
+   <section id = "Learn_from_developers"class = "main-section">
+    <header>Learn from developers</header>
+    <p>The body for this example consists of a Center widget containing a Text child widget. The Center widget aligns its widget subtree to the center of the screen</p>
+    <p>In this step, you’ll start using an open-source package named english_words, which contains a few thousand of the most used English words plus some utility functions.</p>
+    <code> flutter pub get</code>
+    <ul>
+      <li>Performing Pub get also auto-generates the pubspec.lock file with a list of all packages pulled into the project and their version numbers.</li>
+      <li>As you type, Android Studio gives you suggestions for libraries to import. It then renders the import string in gray, letting you know that the imported library is unused (so far)</li>
+    </ul>
+  </section>
+  
+   <section id = "Install_Flutter_today"class = "main-section">
+    <header>Install Flutter today</header>
+    <p>If the app is running, hot reload to update the running app. Each time you click hot reload, or save the project, you should see a different word pair, chosen at random, in the running app. This is because the word pairing is generated inside the build method, which is run each time the MaterialApp requires rendering, or when toggling the Platform in Flutter Inspector.</p>
+    <p>If your app is not running correctly, look for typos. If you want to try some of Flutter’s debugging tools, check out the DevTools suite of debugging and profiling tools. If needed, use the code at the following links to get back on track.</p>
+    <code>class RandomWords extends StatefulWidget {
+  @override
+  _RandomWordsState createState() => _RandomWordsState();
+}
+
+class _RandomWordsState extends State<RandomWords> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+</code>
+    <ul>
+      <li>Remove the word generation code from MyApp by making the changes shown in the following diff:</li>
+      <li>If you see a warning on a hot reload that you might need to restart the app, consider restarting it. The warning might be a false positive, but restarting your app ensures that your changes are reflected in the app’s UI.</li>
+    </ul>
+  </section>
+  
+  
+  
+  
+
+  
+  
+</main>
