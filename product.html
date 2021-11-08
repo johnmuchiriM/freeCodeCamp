@@ -1,0 +1,59 @@
+header{
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+ 
+  
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+
+
+<header id = "header">
+  <img id= "header-img" src = "https://cdn-icons-png.flaticon.com/512/3214/3214746.png" alt="business icon" height="20px" width= "20px">
+  
+  <nav id = "nav-bar">
+  <a href="#pricing" class="nav-link">Price</a> 
+  <a href="#features">Features</a> 
+  <a href="#working">How it works</a>
+  </nav>
+</header>
+<form id ="form" action="https://www.freecodecamp.com/email-submit" method="post">
+  <label>Email</label>
+  <input id="email" required/>
+  <input id ="submit" type= "submit" value= "Submit">
+  </input>
+  
+</form>
+
+<div class ="flex-container">
+  
+<section id="pricing">
+  <p> Emmet is great for that. With it installed in the code editor you are using, you can type “lorem” and then tab and it will expand into a paragraph of Lorem Ipsum placeholder text. But it can do more! You can control how much you get, place it within HTML structure as it expands, and get different bits of it in repeated elements.</p>
+</section>
+
+<section id="features">
+  <p> Emmet is great for that. With it installed in the code editor you are using, you can type “lorem” and then tab and it will expand into a paragraph of Lorem Ipsum placeholder text. But it can do more! You can control how much you get, place it within HTML structure as it expands, and get different bits of it in repeated elements.</p>
+</section>
+</div>
+
+
+<section id="working">
+  <div id ="video">
+    <iframe width="420" height="315" src="https://www.youtube.com/watch?v=zjBHp78zCKs"></iframe>
+  </div>
+</section>
+  
+
+
