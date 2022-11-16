@@ -1,0 +1,15 @@
+function mutation(arr) {
+
+  //Spliting the two words
+
+  var wordOne = arr[0].toLowerCase().split('');
+  var wordTwo = arr[1].toLowerCase().split('');
+
+  return wordTwo.filter(function(each){
+    return wordOne.indexOf(each) === -1;
+  }).length === 0;
+
+
+}
+
+mutation(["hello", "hey"]);
