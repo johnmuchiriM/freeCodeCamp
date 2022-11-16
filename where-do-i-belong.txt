@@ -1,0 +1,11 @@
+function getIndexToIns(arr, num) {
+  let newArray = arr.concat(num).sort((a,b)=> a-b);//Finding the location in the array
+
+  
+  
+
+  return newArray.indexOf(num);
+
+}
+
+getIndexToIns([40, 60], 50);
